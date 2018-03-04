@@ -1,5 +1,8 @@
 # ContentType
 
+[![Travis](https://img.shields.io/travis/marcelotto/content_type.svg?style=flat-square)](https://travis-ci.org/marcelotto/content_type)
+
+
 A parser for HTTP Content-Type headers.
 
 It's an extraction from [Plug](https://github.com/elixir-plug/plug) by Plataformatec.
