@@ -23,8 +23,8 @@ defmodule ContentType.MixProject do
         main: "ContentType",
         source_url: @repo_url,
         source_ref: "v#{@version}",
-        extras: ["README.md"],
-      ],
+        extras: ["README.md"]
+      ]
     ]
   end
 
@@ -50,7 +50,7 @@ defmodule ContentType.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.17.1", only: :dev, runtime: false},
-      {:inch_ex, ">= 0.0.0", only: [:dev, :test]},
+      {:inch_ex, ">= 0.0.0", only: [:dev, :test]}
     ]
   end
 end

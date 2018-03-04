@@ -245,7 +245,6 @@ defmodule ContentType do
 
   defp unquoted_token(<<h, t::binary>>, acc), do: unquoted_token(t, <<acc::binary, h>>)
 
-
   ## Helpers
 
   defp strip_spaces("\r\n" <> t), do: strip_spaces(t)
@@ -266,5 +265,4 @@ defmodule ContentType do
 
   defp split_semicolon(<<char, rest::binary>>, buffer, acc, quoted?),
     do: split_semicolon(rest, <<buffer::binary, char>>, acc, quoted?)
-
 end

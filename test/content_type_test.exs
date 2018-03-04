@@ -3,5 +3,4 @@ defmodule ContentTypeTest do
 
   import ContentType
   doctest ContentType
-
 end
