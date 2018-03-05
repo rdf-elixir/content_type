@@ -30,7 +30,7 @@ defmodule ContentType.MixProject do
 
   defp description do
     """
-    A parser for the HTTP Content-Type header.
+    A parser for HTTP Content-Type headers.
     """
   end
 
