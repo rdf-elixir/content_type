@@ -30,7 +30,7 @@ defmodule ContentType.MixProject do
 
   defp description do
     """
-    A parser for HTTP Content-Type headers.
+    A parser for the HTTP Content-Type header.
     """
   end
 
@@ -39,7 +39,7 @@ defmodule ContentType.MixProject do
       licenses: ["Apache 2"],
       maintainers: ["Marcel Otto"],
       links: %{"GitHub" => @repo_url},
-      files: ~w[lib src mix.exs README.md CHANGELOG.md LICENSE .formatter.exs]
+      files: ~w[lib mix.exs README.md CHANGELOG.md LICENSE .formatter.exs]
     ]
   end
 
