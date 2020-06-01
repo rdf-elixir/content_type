@@ -1,7 +1,7 @@
 defmodule ContentType.MixProject do
   use Mix.Project
 
-  @repo_url "https://github.com/marcelotto/content_type"
+  @repo_url "https://github.com/rdf-elixir/content_type"
 
   @version "0.1.0"
 

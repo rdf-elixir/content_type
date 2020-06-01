@@ -1,6 +1,6 @@
 # ContentType
 
-[![Travis](https://img.shields.io/travis/marcelotto/content_type.svg?style=flat-square)](https://travis-ci.org/marcelotto/content_type)
+[![Travis](https://img.shields.io/travis/rdf-elixir/content_type.svg?style=flat-square)](https://travis-ci.org/rdf-elixir/content_type)
 [![Hex.pm](https://img.shields.io/hexpm/v/content_type.svg?style=flat-square)](https://hex.pm/packages/content_type)
 
 
