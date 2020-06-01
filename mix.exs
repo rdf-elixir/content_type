@@ -49,8 +49,7 @@ defmodule ContentType.MixProject do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.17.1", only: :dev, runtime: false},
-      {:inch_ex, ">= 0.0.0", only: [:dev, :test]}
+      {:ex_doc, "~> 0.22", only: :dev, runtime: false}
     ]
   end
 end

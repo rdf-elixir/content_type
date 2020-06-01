@@ -2,7 +2,6 @@
 
 [![Travis](https://img.shields.io/travis/marcelotto/content_type.svg?style=flat-square)](https://travis-ci.org/marcelotto/content_type)
 [![Hex.pm](https://img.shields.io/hexpm/v/content_type.svg?style=flat-square)](https://hex.pm/packages/content_type)
-[![Inline docs](http://inch-ci.org/github/marcelotto/content_type.svg)](http://inch-ci.org/github/marcelotto/content_type)
 
 
 A pure Elixir parser for HTTP Content-Type headers.
