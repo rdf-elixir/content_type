@@ -17,7 +17,7 @@ jobs:
         include:
           - pair:
               elixir: 1.6.0
-              otp: 18.1
+              otp: 19.0
           - pair:
               elixir: 1.13.0
               otp: 24.1.7
