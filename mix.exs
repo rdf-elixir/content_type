@@ -9,7 +9,7 @@ defmodule ContentType.MixProject do
     [
       app: :content_type,
       version: @version,
-      elixir: "~> 1.3",
+      elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       dialyzer: dialyzer(),
