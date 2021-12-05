@@ -1,6 +1,6 @@
 # ContentType
 
-[![Travis](https://img.shields.io/travis/rdf-elixir/content_type.svg?style=flat-square)](https://travis-ci.org/rdf-elixir/content_type)
+[![CI](https://github.com/rdf-elixir/content_type/workflows/CI/badge.svg?branch=master)](https://github.com/rdf-elixir/content_type/actions?query=branch%3Amaster+workflow%3ACI)
 [![Hex.pm](https://img.shields.io/hexpm/v/content_type.svg?style=flat-square)](https://hex.pm/packages/content_type)
 
 
