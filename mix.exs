@@ -12,6 +12,7 @@ defmodule ContentType.MixProject do
       elixir: "~> 1.3",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      dialyzer: dialyzer(),
 
       # Hex
       package: package(),
@@ -49,7 +50,16 @@ defmodule ContentType.MixProject do
 
   defp deps do
     [
+      {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.26", only: :dev, runtime: false}
+    ]
+  end
+
+  defp dialyzer do
+    [
+      plt_add_apps: [:mix],
+      plt_file: {:no_warn, "priv/plts/dialyzer.plt"},
+      ignore_warnings: ".dialyzer_ignore"
     ]
   end
 end
